@@ -1,15 +1,15 @@
 
 return {
-  LrSdkVersion = 5.0,
-  LrToolkitIdentifier = 'com.adobe.lightroom.sdk.fileRenamer',
+  LrSdkVersion = 12.0,
+  -- LrExportServiceProvider = {
+  --   title = "FileRenamer",
+  --   file = "ExportMenuItem.lua",
+  -- },
+  LrToolkitIdentifier = "dertimonius.filerenamer",
+  pluginId = "dertimonius.filerenamer",
+  LrLibraryMenuItems = {
+    title = "FileRenamer Settings",
+    file = "LibraryMenuItem.lua",
+  },
+  LrPluginName = "FileRenamer"
 }
-
-LrExportMenuItems = {
-  title = "Rename your file",
-  file = "ExportMenuItem.lua",
-},
-
-LrLibraryMenuItems = {
-  title = "Dialog for renaming your file",
-  file = "LibraryMenuItem.lua",
-},
